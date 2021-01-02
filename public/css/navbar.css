@@ -1,0 +1,76 @@
+body {
+  padding-bottom: 20px;
+}
+
+.content {
+  height:10vh;
+  width: 49vw;
+  line-height: 10vh;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.content a{
+  color: #000;
+}
+
+.swiper-slide:nth-child(even) .content {
+  /*background-color: #999;*/
+}
+
+a:hover{
+   text-decoration: none;
+}
+
+.swiper-scrollbar {
+  top: calc(10vh + 1px);
+}
+
+.swiper-scrollbar-2 {
+  top: calc(10vh + 1px);
+}
+
+.swiper-scrollbar-2 .swiper-scrollbar-drag {
+  width: auto;
+  position: absolute; 
+  height: 100%;
+  background: #52aab6;
+}
+
+.swiper-scrollbar-drag {
+  background: #52aab6;
+
+}
+
+
+.swipe-slider .active{
+  color: #fff;
+
+}
+
+.content.active{
+    background: #fff;
+    color: #52aab6;
+    border-bottom: 3px solid;
+}
+
+.content.active a{
+    background: #fff;
+    color: #52aab6;
+}
+
+
+.img-slide {
+              display: block;
+              position: relative;
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              height: auto;
+              object-fit: cover;
+            }
+
+.card{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
